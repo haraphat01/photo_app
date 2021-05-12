@@ -98,6 +98,7 @@ GEM
       actionpack (>= 4)
       less (~> 2.6.0)
       sprockets (>= 2)
+    libv8 (3.16.14.19-x86_64-linux)
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -156,6 +157,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    ref (2.0.0)
     regexp_parser (2.1.1)
     responders (3.0.1)
       actionpack (>= 5.0)
@@ -186,6 +188,9 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
     thor (1.1.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -229,7 +234,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   devise (~> 4.2)
-  devise-bootstrap-views (~> 0.0.7)
+  devise-bootstrap-views
   jbuilder (~> 2.7)
   less-rails
   listen (~> 3.2)
@@ -240,6 +245,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
+  therubyracer
   turbolinks (~> 5)
   twitter-bootstrap-rails
   tzinfo-data
