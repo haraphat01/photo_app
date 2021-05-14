@@ -189,6 +189,7 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    stripe (5.32.1)
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
       ref
@@ -247,6 +248,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
+  stripe
   therubyracer
   turbolinks (~> 5)
   twitter-bootstrap-rails
